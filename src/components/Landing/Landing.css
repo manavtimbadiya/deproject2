@@ -1,0 +1,76 @@
+.landing-container
+{
+    display: flex;
+    /*height: 91vh;*/
+    justify-content: space-between;
+    align-items: center;
+    color: #eee2ee;
+    background: url(Background.PNG);
+    padding: 0 32px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.landing-left{
+    margin-top: 35px;
+
+}
+.landing-header
+{
+    font-size: 82px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+.typewriters-container{
+    display: flex;
+    justify-content: center;
+    font-size: 85px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.icon-container{
+    margin-top: 100px;
+}
+
+.wifi{  
+    margin-right: 70px;
+}
+.bluet{
+    margin-right: 35px;
+}
+.cable{
+    margin-left: 60px;
+}
+
+.head-btns{
+   /*background-color: blue;*/
+    margin-bottom: 15em;
+    /*box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);*/
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.css-dr3dyz-MuiButtonGroup-root .MuiButtonGroup-grouped{
+  
+    background-color: rgb(9,113,241);
+    color: white;
+    margin-bottom: 0.3em;
+    border-radius: 39px;
+
+}
+
+@media (min-width: 0)and(max-width: 800px) {
+    .landing-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .landing-header{
+        margin-top: 32px;
+        text-align: center;
+    }
+    .typewriter-container{
+        text-align: center;
+    }
+}

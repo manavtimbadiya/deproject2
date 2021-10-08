@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    /*background: black;*/
+}
+
+.app
+{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #262a2b;*/
+}
